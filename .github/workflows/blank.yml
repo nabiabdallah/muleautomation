@@ -29,6 +29,6 @@ jobs:
       - name: Install Anypoint CLI
         run: npm install -g anypoint-cli-v4
 
-      #  Install Anypoint CLI
+      #  Automation using Anypoint CLI
       - name: Install Anypoint CLI
-        run: npm i api-catalog-cli -g
+        run: anypoint-cli-v4 account:user:describe --client_id 1b24d50e5ce1496dbda26e51439c7c28 --client_secret 2a2c363E54C042c8b1c5bAb805075A7b
